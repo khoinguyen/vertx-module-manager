@@ -1,0 +1,26 @@
+{
+  "manager": {
+    "notify_address": "module.manager.notify"
+  },
+  "module:io.vertx~mod-mongo-persistor~2.1.0-SNAPSHOT" : {
+    "address": "mongo.persistor",
+    "db_name": "onemax",
+    "host": "localhost",
+    "port": 27017,
+    // "username": "",
+    // "password": "",
+    "fake": false
+  },
+  "module:io.vertx~mod-work-queue~2.0.0-final": {
+    "address": "workqueue",
+    "process_timeout": 10,
+    "persistor_address": "mongo.persistor",
+    "collection": "work_items"  
+  },
+  "module:io.vertx~mod-auth-mgr~2.0.0-final": {
+    "address": "com.auth",
+    "user_collection": "user_access",
+    "persistor_address": "mongo.persistor",
+    "session_timeout": 10   
+  }
+}

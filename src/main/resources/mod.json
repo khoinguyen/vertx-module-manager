@@ -1,0 +1,15 @@
+{
+
+  // Java verticle
+  "main":"com.kafeblog.vertx.ModuleLoaderVerticle",
+
+  // If your module is going to be registered in the Vert.x module registry you will also need the following
+  // mandatory fields
+  "description":"Provide a convenience ways to configure and deploy module",
+  "licenses": ["The Apache Software License Version 2.0"],
+  "author": "Khoi Nguuyen",
+
+  // Optional fields
+  "keywords": ["module", "loader", "manager"],
+  "homepage": "http://kafeblog.com/blog/vertx-modules/module-manager"
+}
