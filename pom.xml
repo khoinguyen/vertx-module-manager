@@ -5,7 +5,7 @@
   <groupId>com.kafeblog.vertx</groupId>
   <artifactId>module-manager</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.1-SNAPSHOT</version>
   <name>Vert.x Module Manager</name>
   <url>http://kafeblog.com/blog/vertx-modules/module-manager</url>
 
