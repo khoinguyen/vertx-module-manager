@@ -38,3 +38,5 @@ For the main verticle, just deploy this module with `container.config`.
 ## Sample script for Javascript application
 
 I have a structure for simple application with single main verticle, you can just edit the `config.json` file to assemble new application easily.
+
+You can found it at `src/main/resource/sample`
