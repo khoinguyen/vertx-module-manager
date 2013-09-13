@@ -15,9 +15,9 @@
      <version>7</version>
   </parent>
   <scm>
-    <connection>scm:git:git@github.com:khoinguyen/vertx-imagemagick.git</connection>
-    <developerConnection>scm:git:git@github.com:khoinguyen/vertx-imagemagick.git</developerConnection>
-    <url>https://github.com/khoinguyen/vertx-imagemagick</url>
+    <connection>scm:git:git@github.com:khoinguyen/vertx-module-manager.git</connection>
+    <developerConnection>scm:git:git@github.com:khoinguyen/vertx-module-manager.git</developerConnection>
+    <url>https://github.com/khoinguyen/vertx-module-manager</url>
   </scm>
   <developers>
     <developer>
